@@ -25,7 +25,6 @@ func main() {
 	default:
 		fmt.Println("Run 'encrypt' to encrypt a file or 'decrypt' to decrypt a file.")
 		os.Exit(1)
-
 	}
 }
 
