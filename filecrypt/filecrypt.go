@@ -98,7 +98,7 @@ func Decrypt(source string, password []byte) {
 		panic(err.Error())
 	}
 
-	dstFile, err := os.Create(source[:len(source)-4])
+	dstFile, err := os.Create(source)
 	if err != nil {
 		panic(err.Error())
 	}
